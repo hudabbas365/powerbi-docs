@@ -19,6 +19,8 @@ To configure Microsoft Entra integration and optionally enable SSO:
 * If you're the Snowflake admin, see [Power BI SSO to Snowflake](https://docs.snowflake.com/en/user-guide/oauth-powerbi.html) in the Snowflake documentation.
 * If you're a Power BI admin, go to the [Admin portal](service-connect-snowflake.md#admin-portal) section to enable SSO.
 * If you're a Power BI semantic model creator, go to the [Configure a semantic model with Microsoft Entra ID](service-connect-snowflake.md#configure-a-semantic-model-with-azure-ad) section to enable SSO.
+In alternative approach we can set role manually from Snowflake you can set and set to the user from snowflake
+USE ROLE myrole;
 
 ## Power BI service configuration
 
